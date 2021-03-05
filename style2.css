@@ -1,0 +1,40 @@
+html {
+    min-height: 50vh;
+    background-color: #479BCC;
+}
+
+
+p{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+main {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+div{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    border: 3.5px solid black;
+    border-radius: 20%;
+    align-items:  center;
+    justify-content: center;
+    margin: 5px;
+    background-color: darkgrey;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: black 2px 2px 3px;
+    color: white;
+}
+div:active{
+    box-shadow: inset 6px 6px 7px black;
+}
